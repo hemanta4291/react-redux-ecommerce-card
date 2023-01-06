@@ -12,7 +12,7 @@ function App() {
       </div>
       <div className="grid grid-cols-12 gap-6">
         <Products/>
-      <Card/>
+        <Card/>
       </div>
     </div>
     </Provider>

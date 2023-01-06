@@ -40,6 +40,7 @@ const cardReducer = (state = initialState, action) => {
                 if(product.id === action.payload.id){
                    if(product.quantity-1<1 ){
                     var index = state.findIndex(function(o){
+                        console.log(o.id)
                         return o.id === product.id;
                    })
                    if (index !== -1) state.splice(index, 1);

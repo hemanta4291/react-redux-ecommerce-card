@@ -18,6 +18,12 @@ const initialState = [
             title:'Lenevo Vivobook X515MA',
             quantity:10,
             price:4857.21
+        },
+        {
+            id:4,
+            title:'Del Vivobook X515MA',
+            quantity:10,
+            price:4857.21
         }
     ]
 
